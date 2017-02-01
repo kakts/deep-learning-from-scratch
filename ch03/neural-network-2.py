@@ -29,6 +29,8 @@ def forward(network, x):
     return y
 
 network = init_network()
+
+# 入力層の値を設定
 x = np.array([1.0, 0.5])
 y = forward(network, x)
 print(y)
